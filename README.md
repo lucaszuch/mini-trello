@@ -6,23 +6,26 @@ This app should simulate a simplified version of the widely know task manager Tr
 
 ## Techonologies:
 
-- TypeScript.
-- JavaScript.
-- Lite-Server.
-- HTML.
-- CSS.
+- TypeScript
+- JavaScript
+- Webpack
+- Lite-Server
+- HTML
+- CSS
 
 ## Requirements:
 
-- TypeScript.
-- Node.js.
+- TypeScript
+- Node.js
 
 ## Running the app:
 
-Run liteTest to open a port 3000 on you browser.
+Run `npm run local` for development, it will setup port 8080.
+Run `npm run build` for production.
 
 ## Changes needed:
 
+- Add webpack (Done)
 - Export/import to organize the code (Done)
 - Improve styles. (Done)
 - Improve desktop media.

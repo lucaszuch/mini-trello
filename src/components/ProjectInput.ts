@@ -1,7 +1,7 @@
 // Module import
-import { AutoBinder } from "../decorators/AutoBinder.js";
-import { Component } from "./BaseComponente.js";
-import { projectState } from "../util/ProjectState.js";
+import { AutoBinder } from "../decorators/AutoBinder";
+import { Component } from "./BaseComponente";
+import { projectState } from "../util/ProjectState";
 
 // Responsible to display the form and manage the user input (fetch + validation)
 export class ProjectForm extends Component<HTMLDivElement, HTMLFormElement> {

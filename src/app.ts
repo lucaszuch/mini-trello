@@ -1,6 +1,6 @@
 // Import modules
-import { ProjectForm } from './components/ProjectInput.js';
-import { ProjectList } from './components/ProjectList.js';
+import { ProjectForm } from './components/ProjectInput';
+import { ProjectList } from './components/ProjectList';
 
 // Instantiate classes
 new ProjectForm();

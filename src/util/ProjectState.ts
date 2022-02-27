@@ -1,5 +1,5 @@
 // Module import
-import { Project, ProjectStatus } from '../models/Project.js';
+import { Project, ProjectStatus } from '../models/Project';
 
 // Here we create a specific type for the listeners, so we make sure that the objects passed follows the project class
 type Listeners = (obj: Project[]) => void;

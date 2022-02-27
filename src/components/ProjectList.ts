@@ -1,10 +1,10 @@
 // Module import
-import { AutoBinder } from "../decorators/AutoBinder.js";
-import { Project, ProjectStatus } from "../models/Project.js";
-import { projectState } from "../util/ProjectState.js";
-import { DragTarget } from "../interfaces/draggable.js";
-import { Component } from "./BaseComponente.js";
-import { ListItem } from "../components/ProjectItem.js";
+import { AutoBinder } from "../decorators/AutoBinder";
+import { Project, ProjectStatus } from "../models/Project";
+import { projectState } from "../util/ProjectState";
+import { DragTarget } from "../interfaces/draggable";
+import { Component } from "./BaseComponente";
+import { ListItem } from "../components/ProjectItem";
 
 // Resposible to render the project lists
 export class ProjectList extends Component<HTMLDListElement, HTMLElement> implements DragTarget{

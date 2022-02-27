@@ -1,8 +1,8 @@
 // Module import
-import { AutoBinder } from "../decorators/AutoBinder.js";
-import { Project } from "../models/Project.js";
-import { Component } from "./BaseComponente.js";
-import { Draggable } from "../interfaces/draggable.js";
+import { AutoBinder } from "../decorators/AutoBinder";
+import { Project } from "../models/Project";
+import { Component } from "./BaseComponente";
+import { Draggable } from "../interfaces/draggable";
 
 export class ListItem extends Component<HTMLUListElement, HTMLLIElement> implements Draggable{
   private project: Project;
